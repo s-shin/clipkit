@@ -12,6 +12,9 @@
   "keywords": [],
   "author": "Shintaro Seki",
   "license": "MIT",
+  "repository": {
+    "url": "git://github.com/s-shin/clipkit.git"
+  },
   "dependencies": {
     "babel-runtime": "^6.6.1",
     "basic-auth": "^1.0.3",

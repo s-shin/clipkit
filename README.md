@@ -1,5 +1,7 @@
 # clipkit - clipboard sync utilities
 
+[![npm version](https://badge.fury.io/js/clipkit.svg)](https://badge.fury.io/js/clipkit)
+
 ## Install
 
 ```
