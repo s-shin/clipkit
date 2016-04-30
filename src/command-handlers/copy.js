@@ -10,6 +10,7 @@ export default function handler({port, secret}) {
       "Content-Type": "application/json",
     },
     auth: secret ? `${SERVER.AUTH_NAME}:${secret}` : null,
+    agent: false, // do not use keep-alive (means exit on end of request)
   }, (res) => {
     if (res.statusCode !== 200) {
       process.exitCode = 1;

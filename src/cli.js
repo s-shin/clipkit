@@ -66,6 +66,10 @@ yargs
     },
     handlerForCopy
   )
+  .demand(1)
+  .strict()
   .help()
   .alias("help", "h")
+  .version()
+  .alias("version", "v")
   .argv;
