@@ -1,6 +1,6 @@
 {
   "name": "clipkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "clipboard sync utilities",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/s-shin/clipkit.git"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "clipkit": "bin/clipkit"
   },
   "dependencies": {
     "babel-runtime": "^6.6.1",
