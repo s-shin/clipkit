@@ -9,11 +9,17 @@
     "clean": "rm -r lib/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Shintaro Seki",
+  "keywords": ["clipboard"],
+  "homepage": "https://github.com/s-shin/clipkit",
+  "bugs": {
+    "url": "https://github.com/s-shin/clipkit/issues"
+  },
+  "author": "Shintaro Seki <s2pch.luck@gmail.com>",
+  "contributors": [],
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/s-shin/clipkit.git"
+    "type": "git",
+    "url": "https://github.com/s-shin/clipkit.git"
   },
   "dependencies": {
     "babel-runtime": "^6.6.1",
